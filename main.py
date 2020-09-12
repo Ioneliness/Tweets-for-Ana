@@ -73,7 +73,11 @@ E FUTURA MÉDICA ✅✅✅
 '''
     def frase12():
         return f'Vendo um documentario sobre o animal {animal}, e logo mais continuar minhas leituras sobre {temas}, agora me diz, tem tarde melhor? {emoji}'
-    frases = [frase1(), frase2(), frase3(), frase4(), frase5(), frase6(), frase7(), frase8(), frase9(), frase10(), frase11(), frase12()]
+
+    def frase13():
+        return f'Em breve esse perfil será somente para falar do meu sucesso em {curses}, não falta muito porque sou já sou promissora 🤭'
+
+    frases = [frase1(), frase2(), frase3(), frase4(), frase5(), frase6(), frase7(), frase8(), frase9(), frase10(), frase11(), frase12(), frase13()]
     frase = choice(frases)
     return frase
 
