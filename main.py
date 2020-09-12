@@ -28,10 +28,10 @@ def create_text():
         return f'Hahaha, eu {arroba}, tenho certificado em {number} cursos!!...{emoji}'
 
     def frase3():
-        return f'Claro que sou uma adolescente promissora! Estudo {number}h de {curses} POR DIA...{emoji}'
+        return f'Claro que eu, {arroba}, sou uma adolescente promissora! Estudo {number}h de {curses} POR DIA...{emoji}'
 
     def frase4():
-        return f'Ai, que dia esplêndido, discuti sobre {temas} por horas com um {pais}...{emoji}'
+        return f'Ai, eu {arroba}, que dia esplêndido, discuti sobre {temas} por horas com um {pais}...{emoji}'
 
     def frase5():
         return f'''De: {arroba}
@@ -41,10 +41,12 @@ Estude mais sobre {curses}...{emoji}
         '''
     
     def frase6():
-        return f'Todos deveriam aprender sobre {temas}, o minimo né gente?'
+        return f'Todos deveriam ser que nem eu, {arroba} aprender sobre {temas}, o minimo né gente?'
 
     def frase7():
-        return f'Tem depressão? Estude sobre {curses} {emoji}'
+        return f'''Tem depressão? Estude sobre {curses} {emoji}
+Conselho: {arroba}
+'''
     
     def frase8():
         ana = randint(5, 9)
@@ -60,7 +62,7 @@ Debate mais facil impossivel {emoji}
     def frase10():
         porcentag = randint(400, 500)
         livro = randint(66, 99)
-        return f'O peso que eu carrego por ser {porcentag}% mais inteligente que meus amigos e todos do recanto não está descrito, só nesses meses já estou no meu {livro} lido, e com uma gama de matéria para estudar que nem se compara com o resto que fica 24/7 reclamando no twitter rs..{emoji}'
+        return f'O peso que, eu {arroba}, carrego por ser {porcentag}% mais inteligente que meus amigos e todos do recanto não está descrito, só nesses meses já estou no meu {livro} lido, e com uma gama de matéria para estudar que nem se compara com o resto que fica 24/7 reclamando no twitter rs..{emoji}'
     
     def frase11():
         return f'''Quem sou eu({arroba})
@@ -72,10 +74,10 @@ Fã do animal {animal} ✅
 E FUTURA MÉDICA ✅✅✅
 '''
     def frase12():
-        return f'Vendo um documentario sobre o animal {animal}, e logo mais continuar minhas leituras sobre {temas}, agora me diz, tem dia melhor? {emoji}'
+        return f'Eu, {arroba}, estou vendo um documentario sobre o animal {animal}, e logo mais continuar minhas leituras sobre {temas}, agora me diz, tem dia melhor? {emoji}'
     
     def frase13():
-        return f'Quase uma semana que nenhum amigo conversa comigo, enfim, vou voltar a estudar {curses}...{emoji}'
+        return f'Eu, {arroba},estou a quase uma semana que nenhum amigo conversa comigo, enfim, vou voltar a estudar {curses}...{emoji}'
     
     def frase14():
         return f''
@@ -91,6 +93,6 @@ if __name__ == "__main__":
         try:
             text = create_text()
             posting(text)
-            sleep(60)
+            sleep(30)
         except Exception as e:
             print(e)
