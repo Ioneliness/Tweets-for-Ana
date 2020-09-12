@@ -10,7 +10,7 @@ def create_text():
     frase_2 = 'Hahaha, eu {}, tenho certificado em {} cursos!!'
     frase_3 = 'Claro que sou uma adolecente promissora! Estudo {}h de {}'
     arroba = '@wtf_anapaula'
-    pais_names = ['Venezuelano', 'Argentino', 'Mexicano', 'Eslavo', 'Frances', 'Italiano', 'Grego', 'Iraniano']
+    pais_names = ['Venezuelano', 'Argentino', 'Mexicano', 'Eslavo', 'Frances', 'Italiano', 'Grego', 'Iraniano', 'Germanico', 'Morador do topo do recanto']
     temas_names = ['Marxismo', 'Neoplatonismo', 'a Escola Pitagórica', 'Aristotelismo', 'Iluminismo', 'Niilismo', 'Romantismo', 'Transcendentalismo', 'Racionalismo']
     
     emoji = choice(emojis_list)
