@@ -72,6 +72,6 @@ if __name__ == "__main__":
         try:
             text = create_text()
             posting(text)
-            sleep(60)
+            sleep(120)
         except Exception as e:
             print(e)
