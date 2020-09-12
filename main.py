@@ -25,13 +25,13 @@ def create_text():
         return f'Sim, eu {arroba}, sou obviamente mais inteligente que {names} rs...{emoji}'
         
     def frase2():
-        return f'Hahaha, eu {arroba}, tenho certificado em {number} cursos!!...{emoji}'
+        return f'Hahaha, eu, {arroba}, tenho certificado em {number} cursos!!...{emoji}'
 
     def frase3():
         return f'Claro que eu, {arroba}, sou uma adolescente promissora! Estudo {number}h de {curses} POR DIA...{emoji}'
 
     def frase4():
-        return f'Ai, eu {arroba}, que dia esplêndido, discuti sobre {temas} por horas com um {pais}...{emoji}'
+        return f'Ai, eu, {arroba}, tive um dia esplêndido, discuti sobre {temas} por horas com um {pais}...{emoji}'
 
     def frase5():
         return f'''De: {arroba}
@@ -77,7 +77,7 @@ E FUTURA MÉDICA ✅✅✅
         return f'Eu, {arroba}, estou vendo um documentario sobre o animal {animal}, e logo mais continuar minhas leituras sobre {temas}, agora me diz, tem dia melhor? {emoji}'
     
     def frase13():
-        return f'Eu, {arroba},estou a quase uma semana que nenhum amigo conversa comigo, enfim, vou voltar a estudar {curses}...{emoji}'
+        return f'Eu, {arroba}, estou a quase uma semana que nenhum amigo conversa comigo, enfim, vou voltar a estudar {curses}...{emoji}'
     
     def frase14():
         return f''
