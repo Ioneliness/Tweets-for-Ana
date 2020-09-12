@@ -10,9 +10,11 @@ def create_text():
     frase_2 = 'Hahaha, eu {}, tenho certificado em {} cursos!!'
     frase_3 = 'Claro que sou uma adolecente promissora! Estudo {}h de {}'
     arroba = '@wtf_anapaula'
-    pais_names = ['Venezuelano', 'Argentino', 'Mexicano', 'Eslavo', 'Frances', 'Italiano', 'Grego', 'Iraniano', 'Germanico', 'Morador do topo do recanto']
+    pais_names = ['Venezuelano', 'Argentino', 'Mexicano', 'Eslavo', 'Frances', 'Italiano', 'Grego', 'Iraniano']
     temas_names = ['Marxismo', 'Neoplatonismo', 'a Escola Pitagórica', 'Aristotelismo', 'Iluminismo', 'Niilismo', 'Romantismo', 'Transcendentalismo', 'Racionalismo']
+    animais = ['feneco', 'peixe-bolha', 'polvo-dumbo', 'veado-de-penacho', 'lagosta-boxeadora', 'lesma-do-mar-azul']
     
+    animal = choice(animais)
     emoji = choice(emojis_list)
     names = choice(names_genius)
     number = randint(1, 99)
@@ -59,8 +61,19 @@ Debate mais facil impossivel {emoji}
         porcentag = randint(400, 500)
         livro = randint(66, 99)
         return f'O peso que eu carrego por ser {porcentag}% mais inteligente que meus amigos e todos do recanto não está descrito, só nesses meses já estou no meu {livro} lido, e com uma gama de matéria para estudar que nem se compara com o resto que fica 24/7 reclamando no twitter rs..{emoji}'
+    
+    def frase11():
+        return f'''Quem sou eu({arroba})
+Futura especialista em {curses} ✅
+Apaixonada pelas leituras de {temas} ✅
+Amo em {pais} ✅
+Fã do animal {animal} ✅
 
-    frases = [frase1(), frase2(), frase3(), frase4(), frase5(), frase6(), frase7(), frase8(), frase9(), frase10()]
+E FUTURA MÉDICA ✅✅✅
+'''
+    def frase12():
+        return f'Vendo um documentario sobre o animal {animal}, e logo mais continuar minhas leituras sobre {temas}, agora me diz, tem tarde melhor? {emoji}'
+    frases = [frase1(), frase2(), frase3(), frase4(), frase5(), frase6(), frase7(), frase8(), frase9(), frase10(), frase11(), frase12()]
     frase = choice(frases)
     return frase
 
@@ -72,6 +85,6 @@ if __name__ == "__main__":
         try:
             text = create_text()
             posting(text)
-            sleep(120)
+            sleep(60)
         except Exception as e:
             print(e)
