@@ -3,16 +3,16 @@ from random import choice, randint
 from time import sleep
 
 def create_text():
-    names_genius = ['Stephen Hawking', 'Albert Einstein', 'Marie Curie', 'Isaac Newton', 'Charles Darwin', 'Niels Boht', 'Nikola Tesla', 'Aristóteles', 'Thomas Edison', 'Jesus', 'Buda', 'Arquimedes', 'Ada Lovelace', 'Nicolau Copénico', 'Carl Sagan', 'Gregory Smith']
-    cursos_names = ['Anestesiologia', 'Cancerologia', 'Cirurgia geral', 'Clínica médica', 'Cirurgia plástica', 'Coloproctologia', 'Dermatologia', 'Endocrinologia', 'Gastroenterologia', 'Genética médica', 'Geriatria', 'Ginecologia e obstetrícia', 'Hematologia', 'Mastologia', 'Medicina de emergência', 'Neurologia', 'Oftalmologia', 'Ortopedia', 'Pediatria', 'Psiquiatria', 'Urologia']
-    emojis_list = ['😍','🤓','🔖','😍🤓', '😍🤓🔖', '😍🔖', '🎓🔖', '😍🎓', '😍🎓🔖', '♥️😍', '♥️']
+    names_genius = ['Stephen Hawking', 'Albert Einstein', 'Marie Curie', 'Isaac Newton', 'Charles Darwin', 'Niels Boht', 'Nikola Tesla', 'Aristóteles', 'Thomas Edison', 'Jesus', 'Buda', 'Arquimedes', 'Ada Lovelace', 'Nicolau Copénico', 'Carl Sagan', 'Gregory Smith', 'Nietzsche', 'Santo Agostinho', 'David Hume', 'Karl Marx', 'Platão', 'Steve Jobs']
+    cursos_names = ['Anestesiologia', 'Cancerologia', 'Cirurgia geral', 'Clínica médica', 'Cirurgia plástica', 'Coloproctologia', 'Dermatologia', 'Endocrinologia', 'Gastroenterologia', 'Genética médica', 'Geriatria', 'Ginecologia e obstetrícia', 'Hematologia', 'Mastologia', 'Medicina de emergência', 'Neurologia', 'Oftalmologia', 'Ortopedia', 'Pediatria', 'Psiquiatria', 'Urologia', 'Genética', 'Imagenologia', 'Biologia Molecular', 'Bioquímica', 'Análises ambientais', 'Análises bromatológicas', 'Engenharia Mecânica', 'Engenharia Biomédica']
+    emojis_list = ['😍','🤓','🔖','😍🤓', '😍🤓🔖', '😍🔖', '🎓🔖', '😍🎓', '😍🎓🔖', '♥️😍', '♥️', '🏥😷', '🙅‍♀️🎓']
     frase_1 = 'Sim, eu {} sou mais inteligente que {}'
     frase_2 = 'Hahaha, eu {}, tenho certificado em {} cursos!!'
     frase_3 = 'Claro que sou uma adolecente promissora! Estudo {}h de {}'
     arroba = '@wtf_anapaula'
-    pais_names = ['Venezuelano', 'Argentino', 'Mexicano', 'Eslavo', 'Frances', 'Italiano', 'Grego', 'Iraniano']
-    temas_names = ['Marxismo', 'Neoplatonismo', 'a Escola Pitagórica', 'Aristotelismo', 'Iluminismo', 'Niilismo', 'Romantismo', 'Transcendentalismo', 'Racionalismo']
-    animais = ['feneco', 'peixe-bolha', 'polvo-dumbo', 'veado-de-penacho', 'lagosta-boxeadora', 'lesma-do-mar-azul']
+    pais_names = ['Venezuelano', 'Argentino', 'Mexicano', 'Eslavo', 'Frances', 'Italiano', 'Grego', 'Iraniano', 'Russo', 'Brasileiro', 'Tcheco', 'Latino', 'Romeno', 'Espanhol', 'Celta', 'Irlandes']
+    temas_names = ['Marxismo', 'Neoplatonismo', 'a Escola Pitagórica', 'Aristotelismo', 'Iluminismo', 'Niilismo', 'Romantismo', 'Transcendentalismo', 'Racionalismo', 'Pragmatismo', 'Neocriticismo', 'Pós-modernismo', 'Idealismo', 'Materialismo', 'Escolástica', 'Empirismo', 'Metafisica', 'Bolchevismo', 'Esquerdismo', 'Social-democracia', 'Paramore é perfeito.']
+    animais = ['feneco', 'peixe-bolha', 'polvo-dumbo', 'veado-de-penacho', 'lagosta-boxeadora', 'lesma-do-mar-azul', 'Pangolim', 'Dragão-marinho-folhado', 'Anta', 'Ligre', 'Toupeira-nariz-de-estrela']
     
     animal = choice(animais)
     emoji = choice(emojis_list)
@@ -66,18 +66,20 @@ Debate mais facil impossivel {emoji}
         return f'''Quem sou eu({arroba})
 Futura especialista em {curses} ✅
 Apaixonada pelas leituras de {temas} ✅
-Amo um {pais} ✅
+Amo em {pais} ✅
 Fã do animal {animal} ✅
 
 E FUTURA MÉDICA ✅✅✅
 '''
     def frase12():
-        return f'Vendo um documentario sobre o animal {animal}, e logo mais continuar minhas leituras sobre {temas}, agora me diz, tem tarde melhor? {emoji}'
-
+        return f'Vendo um documentario sobre o animal {animal}, e logo mais continuar minhas leituras sobre {temas}, agora me diz, tem dia melhor? {emoji}'
+    
     def frase13():
-        return f'Em breve esse perfil será somente para falar do meu sucesso em {curses}, não falta muito porque sou já sou promissora 🤭'
-
-    frases = [frase1(), frase2(), frase3(), frase4(), frase5(), frase6(), frase7(), frase8(), frase9(), frase10(), frase11(), frase12(), frase13()]
+        return f'Quase uma semana que nenhum amigo conversa comigo, enfim, vou voltar a estudar {curses}...{emoji}'
+    
+    def frase14():
+        return f''
+    frases = [frase1(), frase2(), frase3(), frase4(), frase5(), frase6(), frase7(), frase8(), frase9(), frase10(), frase11(), frase12()]
     frase = choice(frases)
     return frase
 
