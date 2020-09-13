@@ -68,7 +68,7 @@ Debate mais facil impossivel {emoji}
         return f'''Quem sou eu({arroba})
 Futura especialista em {curses} ✅
 Apaixonada pelas leituras de {temas} ✅
-Amo em {pais} ✅
+Amo um {pais} ✅
 Fã do animal {animal} ✅
 
 E FUTURA MÉDICA ✅✅✅
