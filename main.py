@@ -80,8 +80,9 @@ E FUTURA MÉDICA ✅✅✅
         return f'Eu, {arroba}, estou a quase uma semana que nenhum amigo conversa comigo, enfim, vou voltar a estudar {curses}...{emoji}'
     
     def frase14():
-        return f''
-    frases = [frase1(), frase2(), frase3(), frase4(), frase5(), frase6(), frase7(), frase8(), frase9(), frase10(), frase11(), frase12()]
+        return f'NÃO SOU UM BOT PARA DE ENCHER O SACO'
+
+    frases = [frase1(), frase2(), frase3(), frase4(), frase5(), frase6(), frase7(), frase8(), frase9(), frase10(), frase11(), frase12(), frase13(), frase14()]
     frase = choice(frases)
     return frase
 
